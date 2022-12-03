@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover {
+    color: rgb(253, 45, 45);
+}
+
+.inicio,
+.pc,
+.consolas {
+    margin: 0px 15% 40px;
+    font-size: 20px;
+}
+
+.pc1 {
+    text-align: center;
+    background-color: rgb(126, 124, 95);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.cuadro,
+.cuadro2,
+.cuadro3,
+.cuadro4,
+.cuadro5 {
+    background-color: rgb(48, 59, 55);
+    height: 350x;
+    width: 400px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cuadro2 {
+    background-color: rgb(19, 19, 204);
+}
+
+.cuadro3 {
+    background-color: rgb(48, 150, 48);
+}
+
+.cuadro4 {
+    background-color: rgb(37, 132, 175);
+}
+
+.cuadro5 {
+    background-color: rgb(235, 31, 31);
+}
+
+.epicgames2,
+.steam2,
+.playstation,
+.xbox,
+.nintendo {
+    border-radius: 10px;
+    border-color: rgb(49, 46, 46);
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    height: 40px;
+    place-self: center;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+.xbox {
+    background-color: green;
+}
+.xbox:hover{
+    background-color: darkgreen;
+}
+
+.nintendo {
+    background-color: rgb(189, 39, 39);
+}
+
+.nintendo:hover {
+    background-color: rgb(83, 10, 10);
+}
+
+.steam2 {
+    background-color: rgb(32, 101, 158);
+}
+
+.steam2:hover {
+    background-color: darkblue;
+}
+
+.playstation {
+    background-color: rgb(35, 100, 100);   
+}
+.playstation:hover{
+    background-color: rgb(73, 73, 196);
+}
+.epicgames2:hover {
+    background-color: rgb(10, 56, 56);
+}
+
+.imgepic {
+    border-radius: 50px;
+    height: 300px;
+    width: 400px;
+    margin-top: 10px;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    gap: 10px;
+}
+
+.footer img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: white;
+    padding: 5px;
+}
+
+.footer img:hover {
+    background-color: rgb(7, 95, 146);
+    transform: scale(1.3);
+}

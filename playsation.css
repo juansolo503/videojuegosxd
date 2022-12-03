@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    margin: 50px;
+}
+
+.nav {
+    margin: 40px 0;
+}
+
+.pc1,
+.pc2 {
+    text-align: center;
+    background-color: rgb(53, 123, 228);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.inicio {
+    margin: 0px 15% 40px;
+    font-size: 20px;
+}
+
+.imgepic {
+
+    height: 520px;
+    width: 500px;
+    margin: 10px 120px;
+}
+.botonepic{
+    margin-top: 10px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.botonepic:hover{
+    background-color: rgb(28, 29, 92);
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    gap: 10px;
+}
+
+.footer img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: white;
+    padding: 5px;
+}
+
+.footer img:hover {
+    background-color: rgb(61, 131, 172);
+    transform: scale(1.3);
+}
